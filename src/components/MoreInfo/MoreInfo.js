@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/font-awesome.min.css';
 import '../../styles/noscript.css';
-import '../../styles/wrapper.css';
+// import '../../styles/wrapper.css';
 import '../../styles/main.css';
 
 

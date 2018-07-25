@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../styles/font-awesome.min.css';
 import '../../styles/noscript.css';
 import '../../styles/main.css';
-import './Banner.css';
+// import './Banner.css';
 
 class Banner extends Component {
   render () {

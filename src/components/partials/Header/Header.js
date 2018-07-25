@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../../styles/font-awesome.min.css';
 import '../../../styles/noscript.css';
-import './Header.css';
+// import './Header.css';
 import '../../../styles/main.css';
 
 class Header extends Component {
