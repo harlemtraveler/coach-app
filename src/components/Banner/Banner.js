@@ -9,10 +9,10 @@ class Banner extends Component {
     return (
       <section id="banner">
       	<div class="inner">
-      		<h2>Spectral</h2>
-      		<p>Another fine responsive<br />
-      		site template freebie<br />
-      		crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
+      		<h2>Myers Consulting</h2>
+      		<p>Career Coaching Rethought<br />
+      		launch your career<br />
+      		to the next level.</p>
       		<ul class="actions special">
       			<li><a href="#" class="button primary">Activate</a></li>
       		</ul>

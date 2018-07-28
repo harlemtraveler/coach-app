@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import '../../../styles/font-awesome.min.css';
-import '../../../styles/noscript.css';
+import '../../styles/font-awesome.min.css';
+import '../../styles/noscript.css';
 // import './Header.css';
-import '../../../styles/main.css';
+import '../../styles/main.css';
+import '../../utils/js/main';
+import '../../utils/js/util';
 
 class Header extends Component {
   render () {
     return (
       <header id="header" class="alt">
-  			<h1><a href="index.html">Spectral</a></h1>
+  			<h1><a href="index.html">Myers</a></h1>
   			<nav id="nav">
   				<ul>
   					<li class="special">
