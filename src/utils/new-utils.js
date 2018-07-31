@@ -37,42 +37,4 @@ window.onload = function() {
   }
 
   // Scrolly
-  const scrolly = document.getElementsByClassName('.scrolly');
-
-  function currentYPosition() {
-
-    // Find the current Y coordinate position on the page.
-
-    // Firefox, Chrome, Opera, Safari
-    if (self.pageYOffset) {
-      return self.pageYOffset;
-    }
-
-    // Internet Explorer 6 - standards mode
-    if (document.documentElement && document.documentElement.scrollTop) {
-      return document.documentElement.scrollTop;
-    }
-
-    // Internet Explorer 6, 7 and 8
-    if (document.body.scrollTop) {
-      return document.body.scrollTop;
-    }
-
-    return 0;
-  }
-
-  // window.learnMoreScroll = (target) => {
-  //   let scrollContainer = target;
-  //
-  //   do {
-  //     scrollContainer = scrollContainer.offsetTop;
-  //
-  //     if (scrollContainer) {
-  //       target.scrollTop -= scrollContainer;
-  //     }
-  //
-  //     while (scrollContainer.scrollTop == 0)
-  //   }
-  // }
-
-}
+  // Now located in a seperate JS file, located in "/src/utils/js/scroll-utils.js"
